@@ -1,0 +1,92 @@
+<html>
+<head>
+
+<title>Surver form</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	<div id="title">A surver form</div>
+	<div id="description">Build a survey form. including responsive web design project in freecodecamp.</div>
+	<br>
+	<div class="card">
+	<form id="surver-form">
+	  <div>
+		<label id="name-label" for="name">Your Name :</label>
+	  <input type="name" name="name" id="name" placeholder="Enter your name:" required>
+	  </div>
+	  <br>
+	  <div>
+		<label id="email-label" for="email">Your Email:</label>
+	   <input type="email" name="email" id="email" placeholder="example@example.xyz" required>
+	  </div>
+	  <br>
+	 <div>
+	   <label id="number-label" for="phone">Your Phone :</label>
+	 
+	  <input type="number" name="phone" id="phone" placeholder="1234567890" min="10" max="13">  
+	 </div>
+	 <br>
+	 <div>
+	   <div class="sub-head">Gender :</div>
+	  
+	   <input type="radio" name="gender" value="male" id="male">
+		<label for="male">Male</label>
+	   <br>
+	  
+	   <input type="radio" name="gender" value="female" id="female">
+	   <label for="female">Female</label>
+	   <br>
+	   
+	   <input type="radio" name="gender" value="other" id="other">
+	   <label for="other">Other</label>
+	 </div>
+	 <br>
+	  
+	  
+	 <div>
+	   <div class="sub-head">Which Social Media Do You Use : </div>
+	   
+	   <input type="checkbox" name="f-social-media" value="facebook" id="facebook">
+	   <label for="facebook">Facebook</label>
+	   <br>
+		<input type="checkbox" name="f-social-media" value="twitter" id="twitter">
+	   <label for="twitter">Twitter</label>
+	   <br>
+		<input type="checkbox" name="f-social-media" value="Linked In" id="Linked In">
+	   <label for="Linked In">Linked In</label>
+	   <br>
+		<input type="checkbox" name="f-social-media" value="Telegram" id="Telegram">
+	   <label for="Telegram">Telegram</label>
+	   <br>
+		<input type="checkbox" name="f-social-media" value="What's App" id="What's App">
+	   <label for="What's App">What's App</label>
+	 
+	 </div>
+	  
+	  
+	 <br>
+	  <div >
+		<label class="sub-head" for="dropdown">Chose Your Jobs : </label>
+		<select id="dropdown">
+		  <option value="">Select You Occupation </option>
+	<option value="Graphics Design">Graphics Designer</option>
+		  <option value="Web Developer">Web Developer</option>
+		  <option value="Manager">Manager</option>
+		  <option value="Student">Student</option>
+		   <option value="Marketter">Marketter</option>
+		<option value="CEO">CEO</option>
+		</select>
+	   
+	  </div> 
+	  <br>
+	  <label class="sub-head" for="your-aim">What do you want in your future :</label><br>
+	  <textarea id="your-aim" rows="10" cols="55" placeholder="your aim..........."></textarea>
+	  <br>
+	  <div><input type="submit" value="submit" id="submit"></div>
+	  
+	</form>
+	</div>
+	</div>
+</body>
+</html>
